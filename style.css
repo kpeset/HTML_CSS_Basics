@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(239, 239, 239);
+}
+
+nav {
+  background-color: #a306b6;
+  padding: 1rem;
+}
+
+nav a,
+nav h2 {
+  color: #fff;
+}
+
+ul {
+  margin-top: 1rem;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  min-height: 250px;
+  color: white;
+  background-color: rgb(221, 221, 221);
+  background-image: url("https://fastly.picsum.photos/id/530/1920/600.jpg?hmac=HRrGrKXHuedY3uU79PFc7s5WINAJ42PUbrkRDWM2OzQ");
+  background-size: cover;
+  text-align: center;
+  padding-top: 6rem;
+  margin-bottom: 4rem;
+}
+
+section {
+  width: 65ch;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+section > h2 {
+  margin-bottom: 0.75rem;
+}
+
+p {
+  line-height: 1.5;
+}
+
+article {
+  display: inline-block;
+  background-color: #fff;
+  width: 47%;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 4px 4px 4px 0px #d4d4d4;
+}
+
+footer {
+  background-color: #a306b6;
+  padding: 2rem;
+  color: #fff;
+}
+
+main {
+  min-height: 60vh;
+}
